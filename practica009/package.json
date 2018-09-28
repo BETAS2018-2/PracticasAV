@@ -1,0 +1,14 @@
+{
+  "name": "practica009",
+  "version": "1.0.0",
+  "description": "Calcular primos y diferencia entre fecha escrita y actual",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tony",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
