@@ -1,8 +1,14 @@
 let express = require('express');
 let app = express();
+const port = process.env.PORT();
 
-app.listen('3000',()=>{
+app.listen( port ,()=>{
     console.log("Funcionando en el puerto 3000");
+});
+
+app.get('/', ()=>{
+    res.send(`Para ver los numeros entre a https://practica009.herokuapp.com/calcular/numeros/primo/7
+    Para ver los numeros entre a https://practica009.herokuapp.com/calcular/fechas/diferencia/5/5/2005`);
 });
 
 app.get('/calcular/numeros/primo/:n', (req, res)=>{
